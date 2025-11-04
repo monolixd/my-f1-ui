@@ -9,7 +9,7 @@ export const F1Card = ({ driver }) => {
   // 2. "แกะกล่อง" props ออกมาใช้
   const { name, team, number, imageUrl, stats } = driver;
 
-  // 3. Return UI ที่คุณดีไซน์มา (สวยมากครับ!)
+  // 3. Return UI 
   return (
     <div className="w-80 overflow-hidden rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-50 to-gray-100 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
       {/* Header with number overlay */}

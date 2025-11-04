@@ -23,7 +23,6 @@ export const InteractiveModal = {
           Open Modal
         </button>
 
-        {/* 2. ตัว Modal Component */}
         {/* เราส่ง props (args) ที่ได้รับมา และ state ของเราเข้าไป */}
         <Modal {...args} isOpen={isOpen} onClose={() => setIsOpen(false)} />
       </>
@@ -39,10 +38,9 @@ export const InteractiveModal = {
 };
 
 // --- Story รองสำหรับดูตอนที่เปิดค้างไว้ (สำหรับเทส UI) ---
-
 export const DefaultOpen = {
   args: {
-    isOpen: true, // กำหนดให้เปิดค้างไว้เลย
+    isOpen: true,
     title: "Modal (Open by Default)",
     children: <p>Modal นี้จะเปิดค้างไว้เพื่อดู UI โดยเฉพาะ</p>,
   },

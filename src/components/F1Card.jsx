@@ -1,7 +1,6 @@
 import React from "react";
 
 export const F1Card = ({ driver }) => {
-  // 1. "Seatbelt" (เข็มขัดนิรภัย) - เช็กว่ามีข้อมูล driver มั้ย
   if (!driver) {
     return null;
   }
